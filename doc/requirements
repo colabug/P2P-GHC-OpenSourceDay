@@ -1,0 +1,35 @@
+Would it unreasonable to require women to go to a center for first time
+registration of cell phone numbers? For subsequent phone registrations?
+
+ Fonkoze collects data from the center using a paper form. So you can imagine
+ two scenarios:
+ 1. The first registration members come to the center to do it and, after that
+    for updating information they'll use a mobile application
+ 2: Call the call center to register
+
+Can center employees collect these numbers? Do we need a technological
+solution?
+
+    Yes we need to perform the existing solution. For right now they use the
+    Emerge database to collect data. The issue is if the members change phone
+    numbers FONKOZE doesn’t have a way to have the new ones.
+  
+Will a woman be associated with a certain center?
+
+    Fonkoze has a unique interface which is the main contact for fonkoze.
+
+Is there internet connectivity at the centers?
+
+    46 branches of fonkoze have connectivity
+   
+What kind of database do you have? How can we connect to it?
+
+   This database isn’t an open source so we can’t get the possibility to change
+   anything. But we can develop an application to interact with this database or
+   may be plug in.
+     
+UNANSWERED QUESTIONS
+* What’s the information that you need to collect from each woman?
+* Would it be reasonable to collect the information at the vendor level? Where
+  are SIM cards typically bought? Do you keep the phones and just replace the
+  SIM cards?

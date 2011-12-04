@@ -1,0 +1,43 @@
+OVERVIEW
+This project was started as a proof of concept during the Grace Hopper
+Conference's Open Source Day 2011. After colloboration with project participants
+and the team in Haiti, the requirements led us to design this prototype.
+
+It is fairly barebones now, but if fleshed out, it will enable call center
+representatives to register current phone numbers for the market women in Haiti.
+As this information may change often, ease of use and training is favored for
+keeping this data up to date.
+
+This can be achieved through simple web forms generated to capture important
+information for each woman. It would be maintained with the admin interface
+provided by Django. Not sure if the intention is to have each center
+have a separate database for their region or if the database should be shared
+across the entire country.
+
+In addition to the prototype, we have included a document from the requirements
+gathering phase which was generated through colloboration with the students in
+Haiti.
+
+PROTOTYPE
+The operations you can currently preform are creating new users and call
+centers. Also you can also edit, delete, and view records.
+
+To start the server:
+
+    python manage.py runserver
+    Note: If starting fresh, it will have you create a superuser so you can log
+          into the browser.
+
+To view in browser:
+
+    http://127.0.0.1:8000/admin/
+
+To clear database:
+
+    python manage.py flush
+
+NEXT STEPS
+We used Django to implement the prototypem please see this for more information
+if the project will be expanded.
+
+    https://docs.djangoproject.com/en/1.3/
